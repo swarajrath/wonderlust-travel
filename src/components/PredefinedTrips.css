@@ -1,0 +1,11 @@
+.slideImages {
+    height: 60vh;
+    width: 108vh;
+    margin: 3rem 10rem 10rem;
+    transform: translateX(25%);
+}
+
+.parisHead {
+    font-size: 4rem;
+    
+}

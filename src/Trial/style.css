@@ -1,0 +1,45 @@
+*,*::before,*::after{
+	padding: 0;
+	margin: 0;
+	box-sizing: border-box;
+}
+body{
+	background-color: #00002a;
+	height: 100vh;
+	width: 100vw;
+	display: flex;
+}
+input[type="radio"]{
+	-webkit-appearance:none;
+}
+label{
+	height: 180px;
+	width: 240px;
+	border:6px solid #18f98d;
+	position: relative;
+	margin: auto;
+	border-radius: 10px;
+	color: #18f98d;
+	transition: 0.5s;
+}
+.fa{
+	font-size: 80px;
+	position: absolute;
+	top:50%;
+	left: 50%;
+	transform: translate(-50%,-80%);
+}
+label>span{
+	font-size: 25px;
+	position: absolute;
+	top:50%;
+	left: 50%;
+	transform: translate(-50%,80%);
+	font-family: "Poppins",sans-serif;
+	font-weight: 500;
+}
+input[type="radio"]:checked + label{
+	background-color: #18f98d;
+	color: white;
+	box-shadow: 0 15px 45px rgba(24,249,141,0.2);
+}
